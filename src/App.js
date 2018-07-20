@@ -12,7 +12,7 @@ class App extends Component {
   }
   componentDidMount(){
   
-    this.props.changeName(this.state.name)
+    this.props.getname(this.state.name)
   }
   render() {
 
@@ -20,8 +20,7 @@ class App extends Component {
 
     console.log("this is App.js name",this.state.name)
 
-    this.props.changeName(this.state.name)
-
+    this.props.getname(this.state.name)
 
     return (
       <div className="App">

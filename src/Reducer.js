@@ -1,5 +1,5 @@
 export const reducer = (state = {
-    name_reducer:''
+    name_reducer:'jana'
 },action) => {
 
     switch(action.type){

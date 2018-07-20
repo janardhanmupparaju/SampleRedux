@@ -12,7 +12,7 @@ function mapStateToProps(state){
 
 function mapDispatchToProps(dispatch){
     return bindActionCreators({
-        cangenamefromcontainers:changeName
+        getname:changeName
     },dispatch)
 }
 
